@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    background-color: #000000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222; /* Fundo escuro para o cabeçalho */
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #f1f1f1; /* Cor do título */
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ccc; /* Cor do subtítulo */
+}
+
+/* Navegação */
+nav {
+    text-align: center;
+    background-color: #333; /* Fundo escuro para a navegação */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Links em branco */
+    text-decoration: none; /* Sem sublinhado */
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Cor do link quando passar o mouse (laranja) */
+}
+
+/* Seções dos filmes */
+section {
+    padding: 30px;
+    border: 2px solid #444; /* Bordas ao redor de cada seção */
+    margin: 20px;
+    background-color: #222; /* Fundo escuro para as seções */
+}
+
+section h2 {
+    font-size: 35px;
+    color: #fff; /* Cor do título das seções */
+}
+
+section p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ddd; /* Cor do texto das sinopses */
+}
+
+section a {
+    color: #1e90ff; /* Cor do link */
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    margin-top: 40px;
+    color: #ccc; /* Cor do texto do rodapé */
+}
+
+footer p {
+    font-size: 16px;
+}
